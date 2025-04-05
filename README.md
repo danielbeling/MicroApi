@@ -30,7 +30,7 @@ Este é um projeto simples de API REST criado com **C# e .NET 8**, que permite o
 1. **Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/danielbeling/MicroApi.git
 cd MicroApi
 ```
 
