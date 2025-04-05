@@ -21,6 +21,7 @@ namespace MicroApi
                 options => options.UseSqlite("DataSource=BancoFake.db")); // Usa um arquivo persistente
 
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+            builder.Services.AddScoped<ITarefaRepositorio, TarefaRepositorio>();
 
             var app = builder.Build();
 
